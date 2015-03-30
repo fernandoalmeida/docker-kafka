@@ -1,3 +1,3 @@
 describe 'Dockerfile' do
-  it { expect(package('openssh-server')).to be_installed }
+  it { expect(package('zookeeper')).to be_installed }
 end
